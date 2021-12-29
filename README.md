@@ -12,4 +12,4 @@ Technologies used to create this web portfolio :
 4. Bootstrap
 5. Jquery
 
-The future roadmap of this portfolio is to have it migrated to a Modern web technology Signle Page Application(SPA) framework such as Angular/React utilizing SASS/SCSS with a backend of Node/Express/ NoSQL DB such as MongoDb or Casadra etc, following the best web practices and technology.
+The future roadmap of this portfolio is to have it migrated to a Modern Web Technology Single Page Application (SPA) framework such as Angular/React utilizing SASS/SCSS with a backend of Node/Express/ NoSQL DB such as MongoDb or Casadra etc, following the best web practices and technology.
