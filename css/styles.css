@@ -1,0 +1,118 @@
+body{
+    background-color: #deeff6;
+}
+h1,h2,h3,h4,h5{
+    color: #1282a8;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+}
+.section__description.intro__bg--art  {
+    background: url("../assets/PortfolioPic2.png") top right no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+
+
+    .section-fullHeight{
+        height: 100vh;
+        width: 100%;
+    }
+    .section__description {
+      
+        background-color: #deeff6;
+        position: relative;
+    }
+    
+    .section__description.d-flex.flex-column.justify-content-center:before {
+        position: absolute;
+        content: "";
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-image: url(../assets/PortfolioPic2.png) top right no-repeat;
+    }
+
+    h1.section__header {
+        color: #1282a8;
+        font-size: 3rem;
+    }
+    
+    .section__subtitle {
+        font-size: 1.25rem;
+        letter-spacing: 0.85px;
+    }
+    @media  screen and (min-width:0px) and (max-width:767px) {
+        .section__description.intro__bg--art  {
+            background: url(../assets/PortfolioPic2.png) no-repeat top;
+            height: unset;
+            background-size: 50vh auto;
+            margin-bottom: 1rem;
+    }
+    h1.container.section__header {
+        font-size: 1.5rem;
+    }
+    .section__description > h1.container.section__header {
+        margin-top: 55vh;
+    }
+}
+
+.category__card.card {
+    margin: 1rem 0 1rem 0;
+    background: none;
+    transition: transform .3s ease;
+    cursor: pointer;
+    border-radius: 0;
+    border-color: #3183a85c;
+    
+}
+.category__card.card:hover{
+    box-shadow: 0px 2px 6px 0px #3183a887;
+    transform: scale(1.05);
+}
+
+.category__panel{
+    display: flex;
+}
+
+.img-container {
+    background-color: #8aceec21;
+}
+.icon-width{
+    position: absolute;
+    width:5rem;
+    height: 5rem;
+    top: calc( 50% - 1.25rem);
+    left:calc( 50% - 2.5rem);
+
+}
+.fa-icon{
+   position: absolute;
+    top: calc( 50% - 1.75rem);
+    left: calc( 50% - 2.5rem);
+    font-size: 5rem;
+    color: #3183a8;
+}
+.fa-long-icon{
+    left:calc( 50% - 3rem);
+}
+
+span#typedAnim {
+    color: #3183a8;
+    letter-spacing: 1px;
+}
+
+span.typed-cursor {
+    color: #3183a8;
+}
+
+@media  screen and (min-width:768px) and (max-width:946px) {
+    h1.section__header {
+        font-size: 2rem;
+    }
+    .section__subtitle{
+        font-size: 1rem;
+    }
+}
