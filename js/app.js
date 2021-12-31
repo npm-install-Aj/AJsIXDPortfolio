@@ -6,7 +6,5 @@ var typed3 = new Typed('#typedAnim', {
     smartBackspace: true, // this is a default
     loop: true
   });
-  var myLightbox = GLightbox({
-    selector: '.glightbox1'
-});
+
 
